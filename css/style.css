@@ -59,3 +59,58 @@
   
  
 }
+
+
+/* -------Fonts---------- */
+@font-face{
+    font-family: lex;
+    src: url(../fonts/Lexend_Deca/LexendDeca-Regular.ttf);
+}
+
+@font-face{
+    font-family: liv;
+    src: url(../fonts/Abel/Abel-Regular.ttf);
+}
+
+@font-face{
+    font-family: robo;
+    src: url(../fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+
+
+/* -------Intro---------- */
+
+.Intro{
+    background: url(../portfolio/back.png)no-repeat;
+    height: 110vh;
+    background-size: cover;
+    
+    /* background-color: yellow; */
+}
+
+
+.text-intro{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    font-size: 27px;
+    font-family: lex;
+    
+}
+
+.btn-intro{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(48, 180, 48);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
