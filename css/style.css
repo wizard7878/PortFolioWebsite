@@ -364,4 +364,46 @@
   }
   
   
-  
+
+
+
+
+/* -------footer---------- */
+
+.Social ul{
+    font-size: 30px;
+    display: flex;
+    list-style-type: none;
+}
+
+.Social ul>li{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    width: 10vh;
+   padding: 1em 1em;
+   
+}
+
+.Social ul>li a i:hover{
+    
+   color: rgb(54, 54, 54);
+   
+}
+
+footer{
+    background: url(../portfolio/footer-bg.png)no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 30vh;
+}
+
+
+footer p{
+    font-size: 20px;
+    color: #777777;
+    font-family: robo;
+}
