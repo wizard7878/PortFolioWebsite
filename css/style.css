@@ -114,3 +114,34 @@
     font-size: 15px;
     margin-top: 20px;
 }
+
+/*----------services------------- */
+
+.service{
+    background: url(../portfolio/Abract01.png)no-repeat;
+    height: 100vh;
+    /* background-size: cover; */
+    background-position: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.card{
+    width: 25em;
+    height: 30em;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.card p{
+    font-family: lex;
+    font-size: 17px;
+    padding: 10px 20px;
+}
