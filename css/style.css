@@ -285,3 +285,83 @@
 }
 
 
+/* -------subscribe---------- */
+
+.subscribe{
+    
+    padding-top: 10vh;
+  }
+  
+      
+      
+     
+  .subscribe .title{
+      padding: 10em;
+      background:url(../portfolio/subscribe-bg.png)no-repeat;
+      background-position: center;
+      color: white;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  
+  .subscribe .texts{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+  
+  .subscribe .texts h1{
+      font-family: sans-serif;
+      font-size: 30px;
+  }
+  
+  .subscribe .texts p{
+      font-family: liv;
+      font-size: 20px;
+  }
+  
+  .subscribe .form{
+      color: white;
+      
+  
+  }
+  
+  .subscribe .form input{
+      width: 400px;
+      padding: 1.3rem 1rem;
+      border: 1px solid whitesmoke;
+      color: white;
+      background-color: white;
+      background-color: transparent;
+      font-size: 20px;
+      /* height: calc(1.5em + .75rem + 2px); */
+  }
+  
+  .subscribe .form input:focus{
+      /* width: 400px; */
+      padding: 1.3rem 1rem;
+      border: 1px solid whitesmoke;
+      color: white;
+      background-color: white;
+      background-color: transparent;
+      outline-color: transparent;
+      outline-style: solid;
+  }
+  
+  
+  
+  .subscribe .form a{
+      background-color: white;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      padding: 1rem 1rem;
+      font-size: 20px;
+      border-radius: 7%;
+      margin-left: 2vh;
+  }
+  
+  
+  
